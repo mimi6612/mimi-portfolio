@@ -2,6 +2,7 @@ import { createRouter, createWebHistory, RouteRecordRaw } from "vue-router";
 import Home from "@/pages/Home.vue";
 import About from "@/pages/About.vue";
 import Portfolio from "@/pages/Portfolio.vue";
+import SkillSheet from "@/pages/SkillSheet.vue";
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -18,6 +19,11 @@ const routes: Array<RouteRecordRaw> = [
     path: "/portfolio",
     name: "Portfolio",
     component: Portfolio
+  },
+  {
+    path: "/skill-sheet",
+    name: "SkillSheet",
+    component: SkillSheet
   }
 ];
 
