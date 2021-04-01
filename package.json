@@ -3,7 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
+    "serve": "vue-cli-service serve --public localhost",
+    "serve cloud9": "vue-cli-service serve --public 6d12105467274856ac9aaf46f553a32f.vfs.cloud9.us-east-2.amazonaws.com",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
