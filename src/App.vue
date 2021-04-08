@@ -1,11 +1,24 @@
 <template>
-  <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link> |
-    <router-link to="/portfolio">Portfolio</router-link> |
-    <router-link to="/skill-sheet">Skill Sheet</router-link>
+  <div class="container">
+    <nav class="navi">
+      <router-link to="/" class="link">Home</router-link> |
+      <router-link to="/portfolio" class="link">Portfolio</router-link> |
+      <router-link to="/skill-sheet" class="link">Skill Sheet</router-link>
+    </nav>
   </div>
   <router-view />
 </template>
 
-<style></style>
+<style scoped>
+.navi {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.link {
+  margin: 0 0.5rem 0;
+}
+.link:last-child {
+  margin-right: 0;
+}
+</style>
