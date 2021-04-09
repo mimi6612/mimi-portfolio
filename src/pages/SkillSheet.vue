@@ -123,6 +123,10 @@
           <a href="https://twitter.com/mimimimi6612gm1">@mimimimi6612gm1</a>
         </li>
         <li>
+          Github
+          <a href="https://github.com/mimi6612">mimi6612</a>
+        </li>
+        <li>
           Qiita
           <a href="https://qiita.com/mimimimi6612">@mimimimi6612</a>
         </li>
